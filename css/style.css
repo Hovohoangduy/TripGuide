@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto:wght@500;700&display=swap');
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100%;
+  background-color: #FBFBFB;
+  height: 10000px;
+}
+
+.header {
+  position: relative;
+  background-image: linear-gradient(to left, rgba(207, 241, 255, 0), rgba(207, 241, 255, 0.8)), url('../img/beach-palm-blue-sky-infinity.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 45%;
+}
+
+.background-text {
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  font-size: 64px;
+  margin-left: 135px;
+  max-width: 487px;
+  position: absolute;
+  top: 52%;
+  transform: translateY(-50%);
+}
+
+.header-nav {
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  background-color: #fff;
+}
+
+.header-country-user {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-country-notification {
+  display: flex;
+  margin: auto 0;
+  border-right: 1px solid #E7ECF3;
+  height: 32px;
+  align-items: center;
+}
+
+.header-country {
+  display: flex;
+}
+
+.header-currency {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  color: #84878B;
+  margin-right: 14px;
+}
+
+.header-country-logo {
+  height: 20px;
+  margin-right: 17px;
+}
+
+.header-notification-f {
+  display: flex;
+}
+
+.header-notification {
+  height: 20px;
+  padding-right: 15px;
+}
+
+
+.header-notification-text {
+  height: 100%;
+  font-family: Roboto, sans-serif;
+  color: white;
+  padding: 1.4px 2.8px;
+  background-color: red;
+  border-radius: 50%;
+  font-size: 6px;
+  position: relative;
+  left: -23px;
+  top: 2px;
+}
+
+.header-user-drop {
+  display: flex;
+}
+
+.header-user {
+  display: flex;
+}
+
+.header-user-avatar {
+  height: 32px;
+  margin-right: 10px;
+  padding-left: 20px;
+}
+
+.header-user-name {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #3B3E44;
+  font-weight: 600;
+  margin: auto 0;
+  margin-right: 17px;
+}
+
+.header-user-drop-icon {
+  width: 10px;
+  height: 6px;
+  margin: auto 0;
+}
+
+.header-background {
+  position: relative;
+}
