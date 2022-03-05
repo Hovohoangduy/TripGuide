@@ -5,35 +5,635 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
-  <title>Document</title>
+  <title>TripGuide</title>
+  <link rel="icon" href="./icon/icon-tit.png">
 </head>
 <body>
-  <div class="header">
-    <p class="background-text">
-      Book With Us And Enjoy your Journey !
-    </p>
-    <header class="header-nav">
-      <img srcset="./img/logo.png 2x" alt="logo" class="header-logo">
-      <div class="header-country-user">
-        <div class="header-country-notification">
-          <div class="header-country">
-            <p class="header-currency">USD</p>
-            <img src="./img/conuntry-logo.svg" alt="country-logo" class="header-country-logo">
+  <div class="header-primary">
+    <div class="header">
+      <p class="background-text">
+        Book With Us And Enjoy your Journey !
+      </p>
+      <header class="header-nav">
+        <img srcset="./img/logo.png 2x" alt="logo" class="header-logo">
+        <div class="header-country-user">
+          <div class="header-country-notification">
+            <div class="header-country">
+              <p class="header-currency">USD</p>
+              <img src="./img/conuntry-logo.svg" alt="country-logo" class="header-country-logo">
+            </div>
+            <div class="header-notification-f">
+              <img src="./icon/notification.svg" alt="notification-icon" class="header-notification">
+              <p class="header-notification-text">1</p>
+            </div>
           </div>
-          <div class="header-notification-f">
-            <img src="./icon/notification.svg" alt="notification-icon" class="header-notification">
-            <p class="header-notification-text">1</p>
+          <div class="header-user-drop">
+            <div class="header-user">
+              <img srcset="./img/avatar.png 2x" alt="avatar" class="header-user-avatar">
+              <p class="header-user-name">Delowar</p>
+            </div>
+            <img src="./icon/drop-icon.svg" alt="drop-icon" class="header-user-drop-icon">
           </div>
         </div>
-        <div class="header-user-drop">
-          <div class="header-user">
-            <img srcset="./img/avatar.png 2x" alt="avatar" class="header-user-avatar">
-            <p class="header-user-name">Delowar</p>
-          </div>
-          <img src="./icon/drop-icon.svg" alt="drop-icon" class="header-user-drop-icon">
+      </header>
+    </div>
+    <div class="f-header">
+      <div class="f-header-top">
+        <div class="f-service">
+          <a href="#" class="f-service-hotel">
+            <img src="./icon/hotel-icon.svg" alt="hotel icon" class="hotel-icon">
+            <p class="hotel-f">Hotel</p>
+          </a>
+          <a href="#" class="f-service-flight">
+            <img src="./icon/flight-icon.svg" alt="flight icon" class="flight-icon">
+            <p class="flight-f">Flight</p>
+          </a>
+          <a href="#" class="f-service-car">
+            <img src="./icon/car-icon.svg" alt="car icon" class="car-icon">
+            <p class="car-f">Car Rental</p>
+          </a>
+        </div>
+        <div class="f-content">
+          <a href="#" class="f-round-trip">
+            <p class="round-trip-text">Round Trip</p>
+            <img src="./icon/arrow-down-icon.svg" alt="arrow down" class="arrow-down-icon">
+          </a>
+          <a href="#" class="f-passenger">
+            <p class="f-passenger-text">1 passenger</p>
+            <img src="./icon/arrow-down-icon.svg" alt="arrow down" class="arrow-down-icon">
+          </a>
         </div>
       </div>
-    </header>
+      <div class="f-header-bot">
+        <div class="container-bot">
+          <a href="#" class="f-header-location">
+            <h5 class="f-header-text-location">Location</h5>
+            <p class="f-header-location-sub">Where are you from?</p>
+            <a href="#" class="convert-btn">
+              <img src="./icon/convert-icon.svg" alt="convert icon" class="convert-icon-one">
+            </a>
+          </a>
+          <a href="#" class="f-header-checkin">
+            <h5 class="f-header-text-checkin">Check in</h5>
+            <p class="f-header-checkin-sub">Add Date</p>
+            <a href="#" class="convert-btn">
+              <img src="./icon/convert-icon.svg" alt="convert icon" class="convert-icon-two">
+            </a>
+          </a>
+          <a href="#" class="f-header-checkout">
+            <h5 class="f-header-text-checkout">Check out</h5>
+            <p class="f-header-checkout-sub">Add date</p>
+          </a>
+        </div>
+        <a href="#" class="f-header-btn">Search</a>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="content-text">
+      <h1 class="content-text-head">
+        Search a best place in the world
+      </h1>
+      <p class="content-text-sub">
+        Whether you’re looking for places for a vacation. We are here to Guide you about the details you need to check in and ease your trips in advance
+      </p>
+    </div>
+    <div class="container-content">
+      <a href="#" class="grid-content">
+        <div class="grid-container">
+          <img srcset="./img/grid-img-1.png 2x" alt="content image" class="content-img">
+          <h5 class="content-img-text">Batu, East Java</h5>
+          <p class="content-img-sub">86 Destinations</p>
+        </div>
+      </a>
+      <a href="#" class="grid-content">
+        <div class="grid-container">
+          <img srcset="./img/grid-img-2.png 2x" alt="content image" class="content-img">
+          <h5 class="content-img-text">Kuta</h5>
+          <p class="content-img-sub">86 Destinations</p>
+        </div>
+      </a>
+      <a href="#" class="grid-content">
+        <div class="grid-container">
+          <img srcset="./img/grid-img-3.png 2x" alt="content image" class="content-img">
+          <h5 class="content-img-text">Surabaya, East Java</h5>
+          <p class="content-img-sub">86 Destinations</p>
+        </div>
+      </a>
+      <a href="#" class="grid-content">
+        <div class="grid-container">
+          <img srcset="./img/grid-img-5.png 2x" alt="content image" class="content-img">
+          <h5 class="content-img-text">Malang, East Java</h5>
+          <p class="content-img-sub">186 Destinations</p>
+        </div>
+      </a>
+      <a href="#" class="grid-content">
+        <div class="grid-container">
+          <img srcset="./img/grid-img-5.png 2x" alt="content image" class="content-img">
+          <h5 class="content-img-text">Dieng, Central Java</h5>
+          <p class="content-img-sub">86 Destinations</p>
+        </div>
+      </a>
+      <a href="#" class="grid-content">
+        <div class="grid-container">
+          <img srcset="./img/grid-img-6.png 2x" alt="content image" class="content-img">
+          <h5 class="content-img-text">Nusa Dua, Lombok</h5>
+          <p class="content-img-sub">86 Destinations</p>
+        </div>
+      </a>
+      <a href="#" class="grid-content">
+        <div class="grid-container">
+          <img srcset="./img/grid-img-2.png 2x" alt="content image" class="content-img">
+          <h5 class="content-img-text">Bandung, West Java</h5>
+          <p class="content-img-sub">86 Destinations</p>
+        </div>
+      </a>
+      <a href="#" class="grid-content">
+        <div class="grid-container">
+          <img srcset="./img/grid-img-1.png 2x" alt="content image" class="content-img">
+          <h5 class="content-img-text">Wakatobi, Sumatera</h5>
+          <p class="content-img-sub">186 Destinations</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="featured">
+    <div class="featured-text">
+      <h1 class="featured-text-head">Featured Destinations</h1>
+      <p class="featured-text-sub">Popular destinations open to visitors from Indonesia</p>
+    </div>
+    <div class="featured-content">
+      <a href="#" class="featured-container">
+        <div class="featured-grid">
+          <p class="featured-evaluate">3.5</p>
+          <div class="featured-text-img">
+            <h4 class="featured-img-text">Barcelona Tour</h4>
+            <div class="featured-sub">
+              <img srcset="./img/feature-avatar-1.png 2x" alt="avatar featured" class="avatar-sub-featured">
+              <p class="featured-img-sub">196 Activities</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="featured-container">
+        <div class="featured-grid">
+          <p class="featured-evaluate eva-2">3.5</p>
+          <div class="featured-text-img-2">
+            <h4 class="featured-img-text-2">London, United State</h4>
+            <div class="featured-sub">
+              <img srcset="./img/feature-avatar-2.png 2x" alt="avatar featured" class="avatar-sub-featured">
+              <p class="featured-img-sub-2">196 Activities</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="featured-container">
+        <div class="featured-grid">
+          <p class="featured-evaluate eva-2">3.5</p>
+          <div class="featured-text-img-2">
+            <h4 class="featured-img-text-2">Australia Tour</h4>
+            <div class="featured-sub">
+              <img srcset="./img/feature-avatar-2.png 2x" alt="avatar featured" class="avatar-sub-featured">
+              <p class="featured-img-sub-2">196 Activities</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="featured-container">
+        <div class="featured-grid">
+          <p class="featured-evaluate eva-4">3.5</p>
+          <div class="featured-text-img-2 featured-text-img-4">
+            <h4 class="featured-img-text-2 featured-text-4">Australia Tour</h4>
+            <div class="featured-sub">
+              <img srcset="./img/feature-avatar-2.png 2x" alt="avatar featured" class="avatar-sub-featured avatar-sub-featured-4">
+              <p class="featured-img-sub-2 featured-img-sub-4">196 Activities</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="featured-container">
+        <div class="featured-grid">
+          <p class="featured-evaluate eva-4">3.5</p>
+          <div class="featured-text-img-2 featured-text-img-4">
+            <h4 class="featured-img-text-2 featured-text-4">Japan Tour</h4>
+            <div class="featured-sub">
+              <img srcset="./img/feature-avatar-2.png 2x" alt="avatar featured" class="avatar-sub-featured avatar-sub-featured-4">
+              <p class="featured-img-sub-2 featured-img-sub-4">196 Activities</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="featured-container">
+        <div class="featured-grid">
+          <p class="featured-evaluate eva-4">3.5</p>
+          <div class="featured-text-img-2 featured-text-img-4">
+            <h4 class="featured-img-text-2 featured-text-4">Japan Tour</h4>
+            <div class="featured-sub">
+              <img srcset="./img/feature-avatar-2.png 2x" alt="avatar featured" class="avatar-sub-featured avatar-sub-featured-4">
+              <p class="featured-img-sub-2 featured-img-sub-4">196 Activities</p>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="top-tour">
+    <div class="top-tour-header">
+      <div class="top-tour-text">
+        <h1 class="top-tour-text-head">Top Tour</h1>
+        <p class="top-tour-text-sub">Keep calm & travel on</p>
+      </div>
+      <div class="forward">
+        <img src="./icon/forward-left.svg" alt="foward left" class="forward-left">
+        <img src="./icon/forward-right.svg" alt="forward right" class="forward-right">
+      </div>
+    </div>
+    <div class="top-tour-content">
+      <a href="#" class="top-tour-container">
+        <div class="top-tour-grid">
+          <p class="top-tour-location">Japan</p>
+          <div class="top-tour-img-text">
+            <h4 class="top-tour-img-text-primary">Japan</h4>
+            <p class="top-tour-img-text-sub">10 Popular Places</p>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="top-tour-container">
+        <div class="top-tour-grid">
+          <p class="top-tour-location">Indonesia</p>
+          <div class="top-tour-img-text">
+            <h4 class="top-tour-img-text-primary">Bali</h4>
+            <p class="top-tour-img-text-sub">10 Popular Places</p>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="top-tour-container">
+        <div class="top-tour-grid">
+          <p class="top-tour-location">Barcelona</p>
+          <div class="top-tour-img-text">
+            <h4 class="top-tour-img-text-primary">Spain</h4>
+            <p class="top-tour-img-text-sub">10 Popular Places</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="explore-the-word">
+    <div class="explore-the-word-header">
+      <div class="explore-the-world-text">
+        <h1 class="explore-the-world-head">Explore The World</h1>
+        <p class="explore-the-world-sub">10,788 beautiful places to go</p>
+      </div>
+      <div class="forward">
+        <img src="./icon/forward-left.svg" alt="foward left" class="forward-left">
+        <img src="./icon/forward-right.svg" alt="forward right" class="forward-right">
+      </div>
+    </div>
+    <div class="explore-the-word-content">
+      <a href="#" class="explore-the-word-container">
+        <div class="explore-the-word-grid">
+          <img srcset="./img/explore-the-world-1.png 2x" alt="explore-the-word-img" class="explore-the-word-img">
+          <div class="explore-the-word-rate">
+            <img src="./icon/star.svg" alt="star" class="icon-star">
+            <div class="explore-the-word-rate-text">
+              <p class="rate">4.91</p>
+              <p class="rate-quality">(147)</p>
+            </div>
+          </div>
+          <div class="explore-the-world-info">
+            <h4 class="explore-the-world-text-primary">Comfort Space</h4>
+            <p class="explore-the-world-price">$210</p>
+          </div>
+          <p class="explore-the-world-distance">1.2 km to Town Center</p>
+          <div class="explore-the-world-location">
+            <img src="./icon/location-icon.svg" alt="location icon" class="location-icon">
+            <p class="explore-the-world-location-text">Turkey, Mamaris</p>
+          </div>
+          <div class="explore-the-world-room">
+            <img src="./icon/room-icon.svg" alt="room icon" class="room-icon">
+            <div class="explore-the-world-room-text">
+              <p class="room-text">Rooms available: </p>
+              <p class="room-price">375</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="explore-the-word-container">
+        <div class="explore-the-word-grid">
+          <img srcset="./img/explore-the-world-2.png 2x" alt="explore-the-word-img" class="explore-the-word-img">
+          <div class="explore-the-word-rate">
+            <img src="./icon/star.svg" alt="star" class="icon-star">
+            <div class="explore-the-word-rate-text">
+              <p class="rate">4.91</p>
+              <p class="rate-quality">(147)</p>
+            </div>
+          </div>
+          <div class="explore-the-world-info">
+            <h4 class="explore-the-world-text-primary">Comfort Space</h4>
+            <p class="explore-the-world-price">$210</p>
+          </div>
+          <p class="explore-the-world-distance">1.2 km to Town Center</p>
+          <div class="explore-the-world-location">
+            <img src="./icon/location-icon.svg" alt="location icon" class="location-icon">
+            <p class="explore-the-world-location-text">Turkey, Mamaris</p>
+          </div>
+          <div class="explore-the-world-room">
+            <img src="./icon/room-icon.svg" alt="room icon" class="room-icon">
+            <div class="explore-the-world-room-text">
+              <p class="room-text">Rooms available: </p>
+              <p class="room-price">375</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="explore-the-word-container">
+        <div class="explore-the-word-grid">
+          <img srcset="./img/explore-the-world-3.png 2x" alt="explore-the-word-img" class="explore-the-word-img">
+          <div class="explore-the-word-rate">
+            <img src="./icon/star.svg" alt="star" class="icon-star">
+            <div class="explore-the-word-rate-text">
+              <p class="rate">4.91</p>
+              <p class="rate-quality">(147)</p>
+            </div>
+          </div>
+          <div class="explore-the-world-info">
+            <h4 class="explore-the-world-text-primary">Comfort Space</h4>
+            <p class="explore-the-world-price">$210</p>
+          </div>
+          <p class="explore-the-world-distance">1.2 km to Town Center</p>
+          <div class="explore-the-world-location">
+            <img src="./icon/location-icon.svg" alt="location icon" class="location-icon">
+            <p class="explore-the-world-location-text">Turkey, Mamaris</p>
+          </div>
+          <div class="explore-the-world-room">
+            <img src="./icon/room-icon.svg" alt="room icon" class="room-icon">
+            <div class="explore-the-world-room-text">
+              <p class="room-text">Rooms available: </p>
+              <p class="room-price">375</p>
+            </div>
+          </div>
+        </div>
+      </a>
+            <a href="#" class="explore-the-word-container">
+        <div class="explore-the-word-grid">
+          <img srcset="./img/explore-the-world-4.png 2x" alt="explore-the-word-img" class="explore-the-word-img">
+          <div class="explore-the-word-rate">
+            <img src="./icon/star.svg" alt="star" class="icon-star">
+            <div class="explore-the-word-rate-text">
+              <p class="rate">4.91</p>
+              <p class="rate-quality">(147)</p>
+            </div>
+          </div>
+          <div class="explore-the-world-info">
+            <h4 class="explore-the-world-text-primary">Comfort Space</h4>
+            <p class="explore-the-world-price">$210</p>
+          </div>
+          <p class="explore-the-world-distance">1.2 km to Town Center</p>
+          <div class="explore-the-world-location">
+            <img src="./icon/location-icon.svg" alt="location icon" class="location-icon">
+            <p class="explore-the-world-location-text">Turkey, Mamaris</p>
+          </div>
+          <div class="explore-the-world-room">
+            <img src="./icon/room-icon.svg" alt="room icon" class="room-icon">
+            <div class="explore-the-world-room-text">
+              <p class="room-text">Rooms available: </p>
+              <p class="room-price">375</p>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="bg-trending-cites">
+    <div class="trending-cites">
+      <div class="trending-cites-text">
+        <h1 class="trending-cites-text-head">Trending cites</h1>
+        <p class="trending-cites-text-sub">The most searched for cities on TripGuide</p>
+      </div>
+      <div class="trending-cites-content">
+      
+          <div class="trending-cites-grid">
+            <img src="./img/trending-cites-1.png" alt="trending cites image" class="trending-cites-img">
+            <div class="trending-cites-img-content">
+              <h4 class="trending-cites-img-text">Manila</h4>
+              <div class="explore-the-word-rate trending-rate">
+                <img src="./icon/star.svg" alt="star" class="icon-star">
+                <div class="explore-the-word-rate-text">
+                  <p class="rate">4.91</p>
+                  <p class="rate-quality">(147)</p>
+                </div>
+              </div>
+              <div class="trending-cites-price">
+                <h4 class="prices-cites">$250.00</h4>
+                <p class="time-cites">/night</p>
+              </div>
+              <a href="#" class="trending-cites-book">Book Now</a>
+            </div>
+          </div>
+
+          <div class="trending-cites-grid">
+            <img src="./img/trending-cites-2.png" alt="trending cites image" class="trending-cites-img">
+            <div class="trending-cites-img-content">
+              <h4 class="trending-cites-img-text">San Francisco</h4>
+              <div class="explore-the-word-rate trending-rate">
+                <img src="./icon/star.svg" alt="star" class="icon-star">
+                <div class="explore-the-word-rate-text">
+                  <p class="rate">4.91</p>
+                  <p class="rate-quality">(147)</p>
+                </div>
+              </div>
+              <div class="trending-cites-price">
+                <h4 class="prices-cites">$250.00</h4>
+                <p class="time-cites">/night</p>
+              </div>
+              <a href="#" class="trending-cites-book">Book Now</a>
+            </div>
+          </div>
+      
+          <div class="trending-cites-grid">
+            <img src="./img/trending-cites-3.png" alt="trending cites image" class="trending-cites-img">
+            <div class="trending-cites-img-content">
+              <h4 class="trending-cites-img-text">Frankfurt main</h4>
+              <div class="explore-the-word-rate trending-rate">
+                <img src="./icon/star.svg" alt="star" class="icon-star">
+                <div class="explore-the-word-rate-text">
+                  <p class="rate">4.91</p>
+                  <p class="rate-quality">(147)</p>
+                </div>
+              </div>
+              <div class="trending-cites-price">
+                <h4 class="prices-cites">$250.00</h4>
+                <p class="time-cites">/night</p>
+              </div>
+              <a href="#" class="trending-cites-book">Book Now</a>
+            </div>
+          </div>
+       
+          <div class="trending-cites-grid">
+            <img src="./img/trending-cites-4.png" alt="trending cites image" class="trending-cites-img">
+            <div class="trending-cites-img-content">
+              <h4 class="trending-cites-img-text">Washington</h4>
+              <div class="explore-the-word-rate trending-rate">
+                <img src="./icon/star.svg" alt="star" class="icon-star">
+                <div class="explore-the-word-rate-text">
+                  <p class="rate">4.91</p>
+                  <p class="rate-quality">(147)</p>
+                </div>
+              </div>
+              <div class="trending-cites-price">
+                <h4 class="prices-cites">$250.00</h4>
+                <p class="time-cites">/night</p>
+              </div>
+              <a href="#" class="trending-cites-book">Book Now</a>
+            </div>
+          </div>
+      
+          <div class="trending-cites-grid">
+            <img src="./img/trending-cites-5.png" alt="trending cites image" class="trending-cites-img">
+            <div class="trending-cites-img-content">
+              <h4 class="trending-cites-img-text">Stockholm</h4>
+              <div class="explore-the-word-rate trending-rate">
+                <img src="./icon/star.svg" alt="star" class="icon-star">
+                <div class="explore-the-word-rate-text">
+                  <p class="rate">4.91</p>
+                  <p class="rate-quality">(147)</p>
+                </div>
+              </div>
+              <div class="trending-cites-price">
+                <h4 class="prices-cites">$250.00</h4>
+                <p class="time-cites">/night</p>
+              </div>
+              <a href="#" class="trending-cites-book">Book Now</a>
+            </div>
+          </div>
+      
+          <div class="trending-cites-grid">
+            <img src="./img/trending-cites-6.png" alt="trending cites image" class="trending-cites-img">
+            <div class="trending-cites-img-content">
+              <h4 class="trending-cites-img-text">Seattle</h4>
+              <div class="explore-the-word-rate trending-rate">
+                <img src="./icon/star.svg" alt="star" class="icon-star">
+                <div class="explore-the-word-rate-text">
+                  <p class="rate">4.91</p>
+                  <p class="rate-quality">(147)</p>
+                </div>
+              </div>
+              <div class="trending-cites-price">
+                <h4 class="prices-cites">$250.00</h4>
+                <p class="time-cites">/night</p>
+              </div>
+              <a href="#" class="trending-cites-book">Book Now</a>
+            </div>
+          </div>
+    
+      </div>
+    </div>
+  </div>
+  <div class="bg-travel">
+    <div class="travel">
+      <div class="travel-text">
+        <h1 class="travel-text-head">Travel Your Passion</h1>
+        <p class="travel-text-sub">Most Brilliant reasons Entrada should be your one-stop-shop!</p>
+      </div>
+      <div class="travel-content">
+        <a href="#" class="travel-container">
+          <div class="travel-grid bg-travel-1">
+            <h4 class="travel-img-text">Beach Hobby</h4>
+            <div class="explore-the-word-rate travel-rate">
+              <img src="./icon/star.svg" alt="star" class="icon-star">
+              <div class="explore-the-word-rate-text">
+                <p class="rate rate-text-travel">4.8</p>
+                <p class="rate-quality rate-quality-travel">(122 reviews)</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="travel-container">
+          <div class="travel-grid bg-travel-2">
+            <h4 class="travel-img-text">City Tours</h4>
+            <div class="explore-the-word-rate travel-rate">
+              <img src="./icon/star.svg" alt="star" class="icon-star">
+              <div class="explore-the-word-rate-text">
+                <p class="rate rate-text-travel">4.8</p>
+                <p class="rate-quality rate-quality-travel">(122 reviews)</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="travel-container">
+          <div class="travel-grid bg-travel-3">
+            <h4 class="travel-img-text">Hiking Trips</h4>
+            <div class="explore-the-word-rate travel-rate">
+              <img src="./icon/star.svg" alt="star" class="icon-star">
+              <div class="explore-the-word-rate-text">
+                <p class="rate rate-text-travel">4.8</p>
+                <p class="rate-quality rate-quality-travel">(122 reviews)</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="travel-container">
+          <div class="travel-grid bg-travel-4">
+            <h4 class="travel-img-text">Sports Trips</h4>
+            <div class="explore-the-word-rate travel-rate">
+              <img src="./icon/star.svg" alt="star" class="icon-star">
+              <div class="explore-the-word-rate-text">
+                <p class="rate rate-text-travel">4.8</p>
+                <p class="rate-quality rate-quality-travel">(122 reviews)</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-head">
+      <div class="footer-text">
+        <h1 class="footer-text-head">Get our pro offers</h1>
+        <p class="footer-text-sub">Create a visual identity for your company, and an overall brand</p>
+      </div>
+      <div class="footer-input">
+        <input type="text" placeholder="Type your email here" class="input-text">
+        <a href="#" class="footer-subscribe">Subscribe</a>
+      </div>
+    </div>
+    <div class="footer-content">
+      <div class="footer-content-1">
+        <img srcset="./img/logo.png 2x" alt="logo" class="footer-logo">
+        <p class="footer-content-text">This is the team that specializes in making sure in the find it a your interior looks cool</p>
+        <div class="footer-theme">
+          <img src="./icon/light-theme-icon.svg" alt="icon" class="light-theme">
+          <img src="./icon/dark-theme-icon.svg" alt="icon" class="dark-theme">
+        </div>
+      </div>
+      <div class="footer-service">
+        <ul class="footer-content-container">
+          <li class="footer-content-item footer-primary-text">Services</li>
+          <li class="footer-content-item">Travel Booking</li>
+          <li class="footer-content-item">Flight Booking</li>
+          <li class="footer-content-item">Car Booking</li>
+          <li class="footer-content-item">Fivestar Hotel</li>
+          <li class="footer-content-item">Traveling</li>
+        </ul>
+        <ul class="footer-content-container">
+          <li class="footer-content-item footer-primary-text">Support</li>
+          <li class="footer-content-item">Account</li>
+          <li class="footer-content-item">Legal</li>
+          <li class="footer-content-item">Contact</li>
+          <li class="footer-content-item">Terms & Condition</li>
+          <li class="footer-content-item">Privacy Policy</li>
+        </ul>
+        <ul class="footer-content-container">
+          <li class="footer-content-item footer-primary-text">Business</li>
+          <li class="footer-content-item">Success</li>
+          <li class="footer-content-item">About Locato</li>
+          <li class="footer-content-item">Blog</li>
+          <li class="footer-content-item">Information</li>
+          <li class="footer-content-item">Travel Guide</li>
+        </ul>
+      </div>
+    </div>
   </div>
 </body>
 <script src="./script/script.js"></script>
