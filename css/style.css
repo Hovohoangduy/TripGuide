@@ -340,6 +340,11 @@ body {
   text-decoration: none;
 }
 
+.grid-content:hover {
+  border: 1px solid #000;
+}
+
+
 .grid-container {
   margin: 30px 0 25px 30px;
 }
@@ -412,6 +417,7 @@ body {
   padding-top: 32%;
   border-radius: 18px;
   grid-area: h1;
+  transition: transform .2s;
 }
 
 .featured-container:nth-child(2) {
@@ -423,6 +429,7 @@ body {
   border-radius: 20px;
   text-decoration: none;
   grid-area: h2;
+  transition: transform .2s;
 }
 
 .featured-container:nth-child(3) {
@@ -434,6 +441,7 @@ body {
   border-radius: 20px;
   text-decoration: none;
   grid-area: h3;
+  transition: transform .2s;
 }
 
 .featured-container:nth-child(4) {
@@ -445,6 +453,7 @@ body {
   border-radius: 20px;
   text-decoration: none;
   grid-area: h4;
+  transition: transform .2s;
 }
 
 .featured-container:nth-child(5) {
@@ -456,6 +465,7 @@ body {
   border-radius: 20px;
   text-decoration: none;
   grid-area: h5;
+  transition: transform .2s;
 }
 
 .ml {
@@ -471,6 +481,11 @@ body {
   border-radius: 20px;
   text-decoration: none;
   grid-area: h6;
+  transition: transform .2s;
+}
+
+.featured-container:hover {
+  transform: scale(1.05);
 }
 
 .featured-grid {
@@ -616,6 +631,7 @@ body {
   padding-top: 100%;
   border-radius: 18px;
   text-decoration: none;
+  transition: transform .2s;
 }
 
 .top-tour-container:nth-child(2) {
@@ -626,6 +642,7 @@ body {
   padding-top: 100%;
   border-radius: 18px;
   text-decoration: none;
+  transition: transform .2s;
 }
 
 .top-tour-container:last-child {
@@ -636,6 +653,11 @@ body {
   padding-top: 100%;
   border-radius: 18px;
   text-decoration: none;
+  transition: transform .2s;
+}
+
+.top-tour-container:hover {
+  transform: scale(1.08)
 }
 
 .top-tour-location {
@@ -688,6 +710,10 @@ body {
   border: 1px solid #E7ECF3;
   box-sizing: border-box;
   border-radius: 20px;
+}
+
+.explore-the-word-container:hover {
+  border: 1px solid #000;
 }
 
 .explore-the-word-grid {
@@ -827,6 +853,10 @@ body {
   border-radius: 20px;
 }
 
+.trending-cites-grid:hover {
+  border: 1px solid #000;
+}
+
 .trending-cites-img {
   margin-left: 30px;
   width: 160px;
@@ -920,6 +950,7 @@ body {
   padding-top: 50%;
   border-radius: 18px;
   text-decoration: none;
+  transition: transform .2s;
 }
 
 .bg-travel-2 {
@@ -931,6 +962,7 @@ body {
   padding-top: 50%;
   border-radius: 18px;
   text-decoration: none;
+  transition: transform .2s;
 }
 
 .bg-travel-3 {
@@ -942,6 +974,7 @@ body {
   padding-top: 50%;
   border-radius: 18px;
   text-decoration: none;
+  transition: transform .2s;
 }
 
 .bg-travel-4 {
@@ -953,6 +986,12 @@ body {
   padding-top: 50%;
   border-radius: 18px;
   text-decoration: none;
+  transition: transform .2s;
+}
+
+.bg-travel-1:hover, .bg-travel-2:hover, 
+.bg-travel-3:hover, .bg-travel-4:hover {
+  transform: scale(1.08);
 }
 
 .travel-rate {
