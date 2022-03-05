@@ -1066,19 +1066,24 @@ body {
 }
 
 .footer-theme {
+  display: flex;
   padding: 10px 0;
+  max-width: 128px;
+  height: 38px;
   background-color: #fff;
-  width: 128px;
   border-radius: 10px;
   border: 0.5px solid #EFEFEF;
   box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;  
 }
 
 .light-theme {
-  background: #FCFCFD;
-  box-shadow: 0px 2px 2px rgba(67, 67, 67, 0.1);
-  border-radius: 8px;
-  margin-right: 50px;
+  padding-left: 21px;
+}
+
+.dark-theme {
+  padding-right: 21px;
 }
 
 .footer-service {
