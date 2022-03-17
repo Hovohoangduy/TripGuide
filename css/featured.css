@@ -1,0 +1,198 @@
+.featured-content {
+  position: relative;
+  margin-top: 38px;
+  display: grid;
+  grid-template-columns: 420px 420px 270px;
+  grid-template-rows: 220px 30px 160px 220px;
+  grid-template-areas: 
+          "h1 h1 h4"
+          "h1 h1 h5"
+          "h2 h3 h5"
+          "h2 h3 h6";
+  grid-gap: 30px;
+}
+
+.featured-container:first-child {
+  background-image: linear-gradient(38.52deg, rgba(3, 3, 3, 0.54) -3.66%, rgba(6, 6, 6, 0) 45.57%), url('../img/feature-1.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 32%;
+  border-radius: 18px;
+  grid-area: h1;
+  transition: transform .2s;
+}
+
+.featured-container:nth-child(2) {
+  background-image: linear-gradient(357.11deg, rgba(30, 30, 30, 0.67) 11.64%, rgba(66, 66, 66, 0) 23.22%), url('../img/feature-2.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 32%;
+  border-radius: 20px;
+  text-decoration: none;
+  grid-area: h2;
+  transition: transform .2s;
+}
+
+.featured-container:nth-child(3) {
+  background-image: linear-gradient(2.01deg, rgba(35, 35, 35, 0.58) 13.14%, rgba(196, 196, 196, 0) 26.65%), url('../img/feature-3.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 32%;
+  border-radius: 20px;
+  text-decoration: none;
+  grid-area: h3;
+  transition: transform .2s;
+}
+
+.featured-container:nth-child(4) {
+  background-image: linear-gradient(0.63deg, rgba(111, 130, 123, 0.48) 19.18%, rgba(31, 71, 56, 0) 39.64%), url('../img/feature-4.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 32%;
+  border-radius: 20px;
+  text-decoration: none;
+  grid-area: h4;
+  transition: transform .2s;
+}
+
+.featured-container:nth-child(5) {
+  background-image: linear-gradient(0.63deg, rgba(39, 39, 39, 0.56) 19.18%, rgba(17, 17, 17, 0) 39.64%), url('../img/feature-5.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 32%;
+  border-radius: 20px;
+  text-decoration: none;
+  grid-area: h5;
+  transition: transform .2s;
+}
+
+.ml {
+  margin-left: 12px;
+}
+
+.featured-container:last-child {
+  background-image:  linear-gradient(0.63deg, rgba(39, 39, 39, 0.56) 19.18%, rgba(17, 17, 17, 0) 39.64%), url('../img/feature-6.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 32%;
+  border-radius: 20px;
+  text-decoration: none;
+  grid-area: h6;
+  transition: transform .2s;
+}
+
+.featured-container:hover {
+  transform: scale(1.05);
+}
+
+.featured-grid {
+  position: relative;
+}
+
+.featured-img {
+  position: relative;
+  border-radius: 18px;
+}
+
+.featured-text-img {
+  position: absolute;
+  margin-top: -104px;
+  margin-left: 30px;
+}
+
+.featured-evaluate {
+  position: absolute;
+  text-align: center;
+  font-family: DM Sans, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: rgba(255, 84, 61, 1);
+  background-color: #fff;
+  box-shadow: 0px 4px 10px rgba(40, 40, 40, 0.12);
+  width: 60px;
+  border-radius: 20px;
+  padding: 4px 0;
+  margin-top: -262px;
+  margin-left: 20px;
+}
+
+.eva-2 {
+  margin-top: -302px;
+  box-shadow: 0px 4px 10px rgba(40, 40, 40, 0.12);
+}
+
+.eva-4 {
+  font-size: 14px;
+  margin-top: -148px;
+  width: 50px;
+  padding: 2px 0;
+  box-shadow: 0px 2.9697px 7.42424px rgba(40, 40, 40, 0.12);
+}
+
+.featured-text-img-2 {
+  margin-top: 190px;
+  margin-left: 30px;
+}
+
+.featured-text-img-4 {
+  margin-top: 82px;
+  margin-left: 20px;
+}
+
+.featured-img-text {
+  font-family: DM Sans, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.featured-img-text-2 {
+  font-family: DM Sans, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.featured-text-4 {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.featured-sub {
+  display: flex;
+}
+
+.avatar-sub-featured {
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.avatar-sub-featured-4 {
+  width: 14px;
+}
+
+.featured-img-sub {
+  font-family: DM Sans, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+}
+
+.featured-img-sub-2 {
+  font-family: DM Sans, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+}
+
+.featured-img-sub-4 {
+  font-size: 10px;
+}

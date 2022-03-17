@@ -1,0 +1,123 @@
+.explore-the-word-content {
+  position: relative;
+  display: grid;
+  grid-template-columns: 270px 270px 270px 270px;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+.explore-the-word-container {
+  text-decoration: none;
+  background: #FFFFFF;
+  border: 1px solid #E7ECF3;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.explore-the-word-container:hover {
+  border: 1px solid #000;
+}
+
+.explore-the-word-grid {
+  margin: 14px 14px 0;
+}
+
+.explore-the-word-img {
+  border-radius: 16px;
+}
+
+.explore-the-word-rate {
+  display: flex;
+  margin-top: 20px;
+}
+
+.icon-star {
+  margin-right: 8px;
+}
+
+.explore-the-word-rate-text {
+  display: flex;
+}
+
+.rate, .rate-quality {
+  margin-right: 2px;
+  font-family: DM Sans, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #3B3E44;
+}
+
+.rate-quality {
+  color: #84878B;
+}
+
+.explore-the-world-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.explore-the-world-text-primary {
+  font-family: DM Sans, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #3B3E44;
+}
+
+.explore-the-word {
+  margin-bottom: 60px;
+}
+
+.explore-the-world-price {
+  font-family: DM Sans, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #316BFF;
+  padding: 3px 10px;
+  background-color: rgba(49, 107, 255, 0.2);
+  border-radius: 6px;
+}
+
+.explore-the-world-distance {
+  margin-top: 10px;
+  font-family: DM Sans, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #84878B;
+}
+
+.explore-the-world-location {
+  display: flex;
+  margin-top: 16px;
+}
+
+.explore-the-world-location-text {
+  font-family: DM Sans, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #84878B;
+  margin-left: 10px;
+}
+
+.explore-the-world-room {
+  display: flex;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+.explore-the-world-room-text {
+  display: flex;
+  margin-left: 8px;
+}
+
+.room-text, .room-price {
+  font-family: DM Sans, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #84878B;
+}
+
+.room-price {
+  font-weight: 500;
+  margin-left: 3px;
+}

@@ -1,0 +1,101 @@
+.top-tour-header,
+.explore-the-word-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.forward {
+  margin-top: 40px;
+}
+
+.forward-left, .forward-right {
+  padding: 13px;
+  background-color: rgba(244, 245, 246, 1);
+  border-radius: 50%;
+}
+
+.forward-right {
+  background-color: rgba(230, 232, 236, 1);
+  margin-right: 10px;
+}
+
+.top-tour-content {
+  position: relative;
+  display: grid;
+  grid-template-columns: 370px 370px 370px;
+  grid-gap: 30px;
+  margin-top: 60px;
+}
+
+.top-tour-container:first-child {
+  background-image: linear-gradient(175.54deg, rgba(2, 0, 14, 0.13) 9.38%, rgba(42, 34, 101, 0) 47.26%, rgba(15, 11, 44, 0.6) 92.77%), url('../img/top-tour-1.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 100%;
+  border-radius: 18px;
+  text-decoration: none;
+  transition: transform .2s;
+}
+
+.top-tour-container:nth-child(2) {
+  background-image: linear-gradient(175.54deg, rgba(2, 0, 14, 0.13) 9.38%, rgba(42, 34, 101, 0) 47.26%, rgba(15, 11, 44, 0.6) 92.77%), url('../img/top-tour-2.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 100%;
+  border-radius: 18px;
+  text-decoration: none;
+  transition: transform .2s;
+}
+
+.top-tour-container:last-child {
+  background-image: linear-gradient(188.42deg, rgba(2, 0, 14, 0) 56.39%, rgba(42, 34, 101, 0.17) 73.28%, rgba(5, 5, 6, 0.65) 98.94%), url('../img/top-tour-3.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 100%;
+  border-radius: 18px;
+  text-decoration: none;
+  transition: transform .2s;
+}
+
+.top-tour-container:hover {
+  transform: scale(1.08)
+}
+
+.top-tour-location {
+  position: absolute;
+  margin-top: -335px;
+  margin-left: 35px;
+  font-family: DM Sans, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #E9EBF3;
+  padding: 12px 28px;
+  background: rgba(20, 20, 22, 0.2);
+  backdrop-filter: blur(4px);
+  border-radius: 50px;
+}
+
+.top-tour-img-text {
+  margin-left: 35px;
+  margin-bottom: 34px;
+}
+
+.top-tour-img-text-primary {
+  font-family: DM Sans, sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  color: #FCFCFD;
+  letter-spacing: -0.005em;
+  text-shadow: 0px 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+.top-tour-img-text-sub {
+  font-family: DM Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FCFCFD;
+  margin-top: 8px;
+}

@@ -1,0 +1,143 @@
+.footer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #F4F5F6;
+  padding-bottom: 152px;
+}
+
+.footer-head {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1170px;
+  height: 248px;
+  margin: 0 auto;
+  top: -124px;
+  background-color: #145CE6;
+  border-radius: 16px;
+}
+
+.footer-text {
+  padding-top: 62px;
+  max-width: 420px;
+  margin-left: 90px;
+}
+
+.footer-text-head {
+  font-family: Gilroy, sans-serif;
+  font-size: 44px;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: -0.5px
+}
+
+.footer-text-sub {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 1.2px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  opacity: 0.88;
+  padding-top: 16px;
+  line-height: 28px;
+}
+
+.footer-input {
+  display: flex;
+  padding-top: 115px;
+  margin-right: 90px;
+}
+
+.input-text {
+  width: 488px;
+  height: 70px;
+  border-radius: 4px;
+}
+
+.input-text::placeholder {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #B1B5C4;
+  padding: 22px 26px;
+}
+
+.footer-subscribe {
+  position: relative;
+  margin-left: -136px;
+  margin-top: 8px;
+  height: 55px;
+  text-decoration: none;
+  background-color: #353945;
+  color: #fff;
+  padding: 18px 30px;
+  border-radius: 4px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-left: 150px;
+}
+
+.footer-content-text {
+  font-family: DM Sans, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #84878B;
+  max-width: 254px;
+  margin: 20px 0;
+  line-height: 24px;
+}
+
+.footer-theme {
+  display: flex;
+  padding: 10px 0;
+  max-width: 128px;
+  height: 38px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 0.5px solid #EFEFEF;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;  
+}
+
+.light-theme {
+  padding-left: 21px;
+}
+
+.dark-theme {
+  padding-right: 21px;
+}
+
+.footer-service {
+  display: flex;
+  margin-left: 77px;
+}
+
+.footer-content-container {
+  margin: 0 75px;
+}
+
+.footer-content-item {
+  list-style: none;
+  font-family: DM Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #84878B;
+  line-height: 2;
+}
+
+.footer-primary-text {
+  font-size: 24px;
+  line-height: 3;
+  color: #222529;
+}

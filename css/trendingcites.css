@@ -1,0 +1,86 @@
+.bg-trending-cites {
+  width: 100%;
+  background-color: #F5F5F5;
+}
+
+.trending-cites {
+  padding: 60px 0;
+}
+
+.trending-cites-text {
+  text-align: center;
+}
+
+.trending-cites-content {
+  max-width: 1098px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 534px 534px;
+  grid-template-rows: 216px 216px 216px;
+  grid-gap: 35px 30px;
+}
+
+.trending-cites-text-sub {
+  margin-bottom: 50px;
+}
+
+.trending-cites-grid {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.trending-cites-grid:hover {
+  border: 1px solid #000;
+}
+
+.trending-cites-img {
+  margin-left: 30px;
+  width: 160px;
+  height: 168px;
+  border-radius: 20px;
+  margin-right: 30px;
+}
+
+.trending-cites-img-text {
+  font-family: DM Sans, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #282832;
+}
+
+.trending-rate {
+  margin-top: 12px;
+}
+
+.trending-cites-price {
+  display: flex;
+  font-family: Poppins, sans-serif;
+  margin-top: 22px;
+  margin-bottom: 24px;
+}
+
+.prices-cites {
+  font-weight: 600;
+  font-size: 24px;
+  color: #3B3E44;
+}
+
+.time-cites {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: #92929A;
+}
+
+.trending-cites-book  {
+  text-decoration: none;
+  font-family: DM Sans, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  background-color: #316BFF;
+  border-radius: 6px;
+  padding: 8px 16px;
+}

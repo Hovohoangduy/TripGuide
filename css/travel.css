@@ -1,0 +1,93 @@
+.bg-travel {
+  width: 100%;
+  margin-bottom: 240px;
+}
+
+.travel-container {
+  text-decoration: none;
+}
+
+.travel-content {
+  display: grid;
+  grid-template-columns: 270px 270px 270px 270px;
+  grid-template-rows: 324px;
+  gap: 30px;
+  margin-top: 42px;
+}
+
+.img-text-travel {
+  margin-top: 50px;
+}
+
+.travel-img-text {
+  font-family: DM Sans, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 120px;
+  margin-left: 30px;
+}
+
+.bg-travel-1 {
+  background-image: linear-gradient(8.54deg, rgba(31, 31, 31, 0.63) 17.12%, rgba(35, 35, 35, 0) 92.69%), url('../img/travel-1.png');
+  height: 324px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 50%;
+  border-radius: 18px;
+  text-decoration: none;
+  transition: transform .2s;
+}
+
+.bg-travel-2 {
+  background-image:  linear-gradient(1.52deg, rgba(22, 22, 22, 0.48) 14.56%, rgba(35, 35, 35, 0) 25.42%), url('../img/travel-2.png');
+  height: 324px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 50%;
+  border-radius: 18px;
+  text-decoration: none;
+  transition: transform .2s;
+}
+
+.bg-travel-3 {
+  background-image: linear-gradient(1.52deg, rgba(22, 22, 22, 0.48) 14.56%, rgba(35, 35, 35, 0) 25.42%), url('../img/travel-3.png');
+  height: 324px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 50%;
+  border-radius: 18px;
+  text-decoration: none;
+  transition: transform .2s;
+}
+
+.bg-travel-4 {
+  background-image: linear-gradient(6.66deg, rgba(0, 0, 0, 0.22) 15.51%, rgba(133, 118, 173, 0) 42.28%, rgba(20, 21, 31, 0) 42.28%), url('../img/travel-4.png');
+  height: 324px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 50%;
+  border-radius: 18px;
+  text-decoration: none;
+  transition: transform .2s;
+}
+
+.bg-travel-1:hover, .bg-travel-2:hover, 
+.bg-travel-3:hover, .bg-travel-4:hover {
+  transform: scale(1.08);
+}
+
+.travel-rate {
+  margin-top: 6px;
+  margin-left: 30px;
+}
+
+.rate-text-travel, .rate-quality-travel {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}

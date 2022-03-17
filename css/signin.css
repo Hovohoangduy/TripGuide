@@ -1,0 +1,181 @@
+.user-login {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: none;
+  top: 0;
+  left: 0;
+  /* transform: translateX(-50%) translateY(-50%); */
+  z-index: 9;
+  padding-top: 78px;
+  background-color: rgba(0, 0, 0, 0.39);
+  overflow: auto;
+}
+
+.close-btn {
+  position: relative;
+  right: -436px;
+  margin-top: -14px;
+  padding: 12px;
+  border-radius: 50%;
+  border: 1px solid #E7ECF3;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.menu-sign-in {
+  width: 466px; 
+  border-radius: 20px;
+  box-shadow: 0px 20px 60px rgba(15, 15, 15, 0.12);
+  background-color: #fff;
+  display: block;
+  margin: 0 auto;
+}
+
+.sign-in-head {
+  padding-top: 34px;
+  font-family: DM Sans, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #000000;
+  text-align: center;
+  letter-spacing: -0.005em;
+}
+
+.sign-in-with {
+  display: flex;
+  margin-top: 20px;
+}
+
+.sign-in-gg{
+  text-decoration: none;
+  display: flex;
+  background-color: #316BFF;
+  padding: 14px 66px;
+  border-radius: 8px;
+  margin: 0 12px 0 50px;
+}
+
+.google-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.sign-in-gg-text {
+  font-family: DM Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+
+.sign-in-fb {
+  background-color: #3B3E44;
+  padding: 12.5px 18px;
+  border-radius: 8px;
+}
+
+.continue-with {
+  width: 318px;
+  font-family: DM Sans, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #84878B;
+  text-align: center;
+  border-bottom: 1px solid #E7ECF3; 
+  line-height: 0.1px;
+  margin: 30px auto 20px; 
+}
+
+.continue-with span {
+  background-color: #fff;
+  padding: 0 10px;
+}
+
+.container-sign-in {
+  margin-left: 50px;
+  margin-bottom: 12px;
+}
+
+label {
+  font-family: DM Sans, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #3B3E44;
+  margin-bottom: 10px;
+}
+
+.input-email-sign-in {
+  width: 368px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: #E7ECF3;
+  outline: none;
+}
+
+.input-email-sign-in::placeholder {
+  font-family: DM Sans, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #84878B;
+}
+
+input[type=email], input[type=password] {
+  padding: 14px;
+  margin-top: 10px;
+}
+
+.forgot-pwd {
+  text-decoration: none;
+  font-family: DM Sans, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #316BFF;
+  padding: 12px 0 0 268px;
+}
+
+.btn-sign-in {
+  display: block;
+  text-decoration: none;
+  font-family: DM Sans, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #316BFF;
+  color: white;
+  padding: 11px 152px;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+.sub-sign-in-text {
+  font-family: DM Sans, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #3B3E44;
+  text-align: center;
+}
+
+.sub-sign-in {
+  padding-bottom: 52px;
+}
+
+.with-sig-up {
+  text-decoration: none;
+  color: #316BFF;
+}
+
+/* Animation zoom */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
